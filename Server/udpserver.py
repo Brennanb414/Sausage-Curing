@@ -6,6 +6,7 @@ from pyHS100 import SmartPlug
 import sqlite3
 import traceback
 
+#static IPs in your router
 DEHUMIDIFIER_IP = "192.168.1.61"
 FRIDGE_IP = "192.168.1.62"
 HUMIDIFIER_IP = "192.168.1.63"
