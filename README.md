@@ -1,5 +1,5 @@
 ## Components required:
-*   tp-link HS100 Smart Plug
+*   3x tp-link HS100 Smart Plug
 *   NodeMCU ESP8266 (ESP-12E)  microcontroller
 *   DHT22 Humidity/Temperature Sensor
 
@@ -9,7 +9,7 @@
 * Sends that data through UDP messages to server
 
 ## Server:
- (Requires: Python3.x + pyHS100 library)
+ (Requires: Python3.x + pyHS100 library & a sqlite db browser)
 * Watches for UDP messages from the client, runs logic on those and uses the pyHS100 library to control a connected smart plug
 * Stores the data for later analysis in a sqlite db
 
